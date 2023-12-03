@@ -39,12 +39,10 @@ class MainActivity : AppCompatActivity() {
                 radioButton.isChecked = true
 
                 val nombrePais = (it as RadioButton).text.toString().toLowerCase().replace(" ", "_")
-                Log.d("CountryName", "Country Name: $nombrePais")
-                Log.d("PackageName", "Package Name: $packageName")
+
                 val banderaId =
                     resources.getIdentifier("${nombrePais}", "drawable", packageName)
 
-                Log.d("FlagResourceID", "Flag Resource ID: $banderaId")
 
                 if (banderaId != 0) {
                     banderaImagen.setImageResource(banderaId)
