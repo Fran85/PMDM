@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <RadioButton
+            android:id="@+id/radio_usa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USA" />
+
+        <RadioButton
+            android:id="@+id/radio_suiza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suiza" />
+
+        <RadioButton
+            android:id="@+id/radio_spain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Espana" />
+
+        <RadioButton
+            android:id="@+id/radio_mexico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mexico" />
+
+        <RadioButton
+            android:id="@+id/radio_korea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corea del sur" />
+
+        <RadioButton
+            android:id="@+id/radio_irlanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Irlanda" />
+
+        <RadioButton
+            android:id="@+id/radio_england"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inglaterra" />
+
+        <RadioButton
+            android:id="@+id/radio_egipto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egipto" />
+
+        <RadioButton
+            android:id="@+id/radio_dominicana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Republica Dominicana" />
+
+        <RadioButton
+            android:id="@+id/radio_chile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chile"/>
+
+
+
+    <ImageView
+        android:id="@+id/imagen_pais"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+
+</LinearLayout>
