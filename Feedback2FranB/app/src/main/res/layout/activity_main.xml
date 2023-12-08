@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="8dp">
+
+    <ListView
+        android:id="@+id/lista_paises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice" />
+
+    <TextView
+        android:id="@+id/seleccion_pais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Selecciona un pais: "
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+</LinearLayout>
