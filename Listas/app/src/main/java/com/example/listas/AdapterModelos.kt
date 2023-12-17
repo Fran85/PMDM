@@ -1,4 +1,7 @@
 package com.example.listas
 
-class AdapterModelos {
+import android.content.Context
+import com.example.listas.model.Coche
+
+class AdapterModelos(allModelos: ArrayList<Coche>, secondActivity: Context) {
 }
